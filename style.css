@@ -1,0 +1,507 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    text-align: center;
+}
+/* Główne menu */
+section header {
+    margin-bottom: 75px;
+}
+
+hr {
+    width: 70px;
+    border: 1px solid rgb(32, 136, 255);
+    border-bottom: 0;
+}
+
+section {
+    padding: 120px 0;
+}
+
+/* Paragrafy w About */
+.lfa-head{
+    margin: auto;
+    text-align: center;
+    width: 750px;
+    overflow: visible;
+}
+
+.lfa-img{
+    height: 100%;
+    width: 100%;
+}
+
+.main-header {
+    height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url('img/istockphoto-1320330053-170667a.jpg');
+}
+.main-header .main-header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: rgb(32, 136, 255);
+    color: black;
+}
+
+.btn:hover {
+    background-color: rgb(14, 85, 238);
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+.main-menu {
+    border: 1px solid black;
+    background-color: rgb(32, 136, 255);
+}
+.main-menu ul{
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.menu-item a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: black;
+}
+
+.menu-item :hover{
+    color: white;
+    transition: 1s;
+}
+
+
+
+.about .btn{
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    flex-basis: 33%;
+    height: 200px;
+    position: relative;
+}
+
+.portfolio-wrapper .portfolio-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio-wrapper .portfolio-item h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(14, 85, 238);
+    margin: 0;
+    text-align: center;
+    line-height: 200px;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 3em;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.portfolio-wrapper .portfolio-item h3:hover {
+    opacity: 90%;
+}
+
+.portfolio .btn{
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Opisy Samochodow*/
+
+/* Tesla Model S */
+.tesla {
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+}
+
+.tesla img{
+    height: 30%;
+    width: 30%;
+    position: relative;
+}
+
+.tesla a{
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Rimac Nevera */
+.rimac {
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+}
+
+.rimac img{
+    height: 30%;
+    width: 30%;
+    position: relative;
+}
+
+.rimac a{
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Polestar 1 */
+.polestar {
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+}
+
+.polestar img{
+    height: 30%;
+    width: 30%;
+    position: relative;
+}
+
+.polestar a{
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Dodge Challenger */
+.dodge {
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+}
+
+.dodge img{
+    height: 30%;
+    width: 30%;
+    position: relative;
+}
+
+.dodge a{
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Chevrolet Camaro */
+.chevrolet {
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+}
+
+.chevrolet img{
+    height: 30%;
+    width: 30%;
+    position: relative;
+}
+
+.chevrolet a{
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Ford Mustang */
+.ford {
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+}
+
+.ford img{
+    height: 30%;
+    width: 30%;
+    position: relative;
+}
+
+.ford a{
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Nissan GT-R */
+.nissan {
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+}
+
+.nissan img{
+    height: 30%;
+    width: 30%;
+    position: relative;
+}
+
+.nissan a{
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Lexus IS-F */
+.lexus {
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+}
+
+.lexus img{
+    height: 30%;
+    width: 30%;
+    position: relative;
+}
+
+.lexus a{
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Subaru Impreza */
+.subaru {
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+}
+
+.subaru img{
+    height: 30%;
+    width: 30%;
+    position: relative;
+}
+
+.subaru a{
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#contact form {
+    width: 750px;
+    margin: 40px auto 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input[type='text'], input[type='email'] {
+    flex-basis: 48%;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+textarea {
+    flex-basis: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    height: 100px;
+}
+
+.social-links {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.social-links .social-link {
+    font-size: 3em;
+    color: rgb(14, 29, 238);
+    transition: all .3s;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.main-footer {
+    background-color: rgb(32, 136, 255);
+    padding: 30px;
+    text-align: center;
+    color: black;
+}
+
+
+/* Media Queries */
+
+/* 800px */
+@media  screen and (max-width: 800px) {
+    body {
+        width: 700px;
+    }
+    .lfa-img{
+        height: 75%;
+        width: 75%;
+        justify-content: center;
+        position: relative;
+    }   
+    .lfa-head {
+        width: 500px;
+    }
+
+    #contact form {
+        width: 60%;
+    }
+
+}
+
+/* 600px */
+@media  screen and (max-width: 600px) {
+    
+
+    body {
+        width: 500px;
+    }
+    .lfa-img{
+        height: 50%;
+        width: 50%;
+        justify-content: center;
+        position: relative;
+    }   
+    .lfa-head {
+        width: 300px;
+    }
+
+    #contact form {
+        width: 40%;
+    }
+    #submit {
+        margin-bottom: 25px;
+    }
+    .portfolio-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 75%;
+        height: 200px;
+        position: relative;
+    }
+    .menu-item {
+        margin: 25px;
+    }
+
+}
+
+/* 400px */
+@media  screen and (max-width: 600px) {
+    
+
+    body {
+        width: 500px;
+    }
+    .lfa-img{
+        height: 25%;
+        width: 25%;
+        justify-content: center;
+        position: relative;
+    }   
+    .lfa-head {
+        width: 150px;
+    }
+
+    #contact form {
+        width: 25%;
+    }
+    #submit {
+        margin-bottom: 25px;
+    }
+    .portfolio-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 100%;
+        height: 200px;
+        position: relative;
+    }
+    .menu-item {
+        margin: 25px;
+    }
+
+}
