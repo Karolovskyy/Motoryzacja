@@ -49,6 +49,9 @@ section {
     justify-content: center;
     align-items: center;
 } 
+.ikona p{
+    width: 750px;
+}
 
 .ikona-img {
     height: 450px;
