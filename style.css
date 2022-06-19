@@ -8,7 +8,9 @@ html {
     height: 100%;
 }
 
-
+.puste {
+    color: white;
+}
 
 
 a {
@@ -37,7 +39,29 @@ section {
     padding: 120px 0;
 }
 
-/* Paragrafy w About */
+/* Ikona Motoryzacja (Peugeot) */
+.ikona {
+   margin: auto;
+    text-align: center;
+    width: 750px;
+    overflow: visible;
+} 
+
+.ikona-img {
+    height: 450px;
+    width: 750px;
+
+}
+
+.ikona .btn{
+    margin: auto;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Lexus LFA */
 .lfa-head{
     margin: auto;
     text-align: center;
@@ -50,6 +74,8 @@ section {
     width: 100%;
 }
 
+
+/* Menu Główne */
 .main-header {
     height: 500px;
    display: flex;
@@ -91,8 +117,8 @@ section {
 }
 
 .menu-item {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 12%;
+    margin-right: 12%;
 }
 
 
