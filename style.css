@@ -43,8 +43,11 @@ section {
 .ikona {
    margin: auto;
     text-align: center;
-    width: 750px;
+    width: 100%;
     overflow: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 } 
 
 .ikona-img {
@@ -442,7 +445,17 @@ textarea {
     body {
         width: 700px;
     }
-    .lfa-img{
+
+    .ikona-img {
+        height: 75%;
+        width: 75%;
+        justify-content: center;
+        position: relative;
+    }
+    .ikona-head {
+        width: 500px;
+    }
+    .lfa-img {
         height: 75%;
         width: 75%;
         justify-content: center;
@@ -465,6 +478,13 @@ textarea {
     body {
         width: 500px;
     }
+    .ikona{
+        margin-left: 5%;
+    }
+    .ikona-head {
+        width: 300px;
+    }
+
     .lfa-img{
         height: 75%;
         width: 75%;
